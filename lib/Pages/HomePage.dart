@@ -17,7 +17,7 @@ class _HomepageState extends State<Homepage> {
         child: Container(
           color: Colors.brown.shade300,
         ),
-        preferredSize: Size(SizeConfig.screenheight!, 500),
+        preferredSize: Size(SizeConfig.screenheight!, 120), 
       ),
       body: Container(
         color: Colors.brown.shade100,
@@ -61,7 +61,7 @@ class itemCards extends StatelessWidget {
       child: GridTile(
         child: Icon(iconOne),
         header: Container(
-          color: Colors.brown.withOpacity(5),
+          color: Colors.brown.shade400,
           child: Center(
             child: Text(headname!),
           ),
